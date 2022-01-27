@@ -1,0 +1,49 @@
+style {
+}
+body{
+  background-color: #E7E0C9;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #6B7AA1;
+  border-width: 10px;
+  width: 50%;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #6B7AA1;
+  text-align: center;
+  color: #6B7AA1
+  }
+h3 {
+  color: #11324D;
+}
+h4 {
+  color: #11324D;
+}
+ul {
+  color: #11324D;
+}
+table {
+  color: #11324D;
+    }
+.emote  {
+  width: 20px;
+  height: 20px;
+}
+.container {
+  position: relative;
+}
+.container img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity .4s;
+      }
+.container:hover img.image-hover {
+   opacity: 1;
+}
